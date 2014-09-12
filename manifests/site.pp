@@ -74,7 +74,7 @@ node default {
   include foreman
   include hub
   include charles
-  include cyberduck
+  #include cyberduck
   include spectacle
   include selfcontrol
   include kindle

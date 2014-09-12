@@ -44,6 +44,11 @@ GITHUBTARBALL
     dnsmasq (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.4.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
     elasticsearch (2.5.0)
@@ -107,6 +112,11 @@ GITHUBTARBALL
   remote: boxen/puppet-karabiner
   specs:
     karabiner (1.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-kindle
+  specs:
+    kindle (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -238,22 +248,23 @@ DEPENDENCIES
   cyberduck (>= 0)
   dash (>= 0)
   dnsmasq (= 1.0.1)
+  dropbox (>= 0)
   elasticsearch (>= 0)
   fonts (>= 0)
   foreman (= 1.2.0)
-  foreman (>= 0)
   gcc (= 2.1.1)
   git (= 2.5.0)
   github_for_mac (>= 0)
   go (= 1.1.0)
   hipchat (>= 0)
   homebrew (= 1.9.4)
-  hub (= 1.3.0)
   hub (>= 0)
+  hub (= 1.3.0)
   inifile (= 1.1.1)
   intellij (>= 0)
   java (>= 0)
   karabiner (>= 0)
+  kindle (>= 0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
@@ -276,6 +287,5 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (>= 0)
   vlc (>= 0)
-  xquartz (>= 0)
   xquartz (= 1.1.1)
 
