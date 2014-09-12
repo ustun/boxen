@@ -56,10 +56,42 @@ node default {
   include dnsmasq
   include git
   include hub
-include osx::global::key_repeat_rate
-include osx::dock::position
+  include elasticsearch
+  include hipchat
+  include sysctl
+  include skitch
+  include alfred
+  include skype
+  include spotify
+  include redis
+  include dash
+  include github_for_mac
+  include calibre
+  include fonts
+  #include authy
+  include opera
+  include vlc
+  include foreman
+  include hub
+  include charles
+  include cyberduck
+  include spectacle
+  include selfcontrol
+  include kindle
+  include dropbox
+  include caffeine
+  class { 'intellij':
+  edition => 'ultimate',
+  version => '13.1'
+  
+}
+  include xquartz
+  include sublime_text
+#  include postgresql
+  include osx::global::key_repeat_rate
+  include osx::dock::position
   include karabiner #::login_item
-karabiner::remap{ 'optionR2controlL': }
+  karabiner::remap{ 'optionR2controlL': }
   include nginx
   include java
 
