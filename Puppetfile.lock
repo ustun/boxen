@@ -29,6 +29,11 @@ GITHUBTARBALL
     charles (1.0.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.3.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-cyberduck
   specs:
     cyberduck (1.0.1)
@@ -245,6 +250,7 @@ DEPENDENCIES
   caffeine (>= 0)
   calibre (>= 0)
   charles (>= 0)
+  clojure (>= 0)
   cyberduck (>= 0)
   dash (>= 0)
   dnsmasq (= 1.0.1)
