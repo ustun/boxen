@@ -51,12 +51,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.4.0)
+    dropbox (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.5.0)
+    elasticsearch (2.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-fonts
@@ -111,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.7.0)
+    java (1.7.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-karabiner
@@ -249,36 +249,27 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-<<<<<<< HEAD
   alfred (>= 0)
   authy (>= 0)
-  boxen (= 3.6.2)
+  boxen (= 3.7.0)
   caffeine (>= 0)
   calibre (>= 0)
   charles (>= 0)
   clojure (>= 0)
   cyberduck (>= 0)
   dash (>= 0)
-  dnsmasq (= 1.0.1)
+  dnsmasq (= 2.0.0)
   dropbox (>= 0)
   elasticsearch (>= 0)
   fonts (>= 0)
-=======
-  boxen (= 3.7.0)
-  dnsmasq (= 2.0.0)
->>>>>>> upstream/master
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.5.0)
   github_for_mac (>= 0)
   go (= 1.1.0)
-<<<<<<< HEAD
   hipchat (>= 0)
-  homebrew (= 1.9.4)
-  hub (>= 0)
-=======
   homebrew (= 1.9.5)
->>>>>>> upstream/master
+  hub (>= 0)
   hub (= 1.3.0)
   inifile (= 1.1.1)
   intellij (>= 0)
@@ -297,24 +288,16 @@ DEPENDENCIES
   postgresql (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
-<<<<<<< HEAD
-  ruby (= 8.1.2)
+  ruby (= 8.1.4)
   selfcontrol (>= 0)
   skitch (>= 0)
   skype (>= 0)
   spectacle (>= 0)
   spotify (>= 0)
-=======
-  ruby (= 8.1.4)
->>>>>>> upstream/master
   stdlib (= 4.2.1)
   sublime_text (>= 0)
   sudo (= 1.0.0)
-<<<<<<< HEAD
   sysctl (>= 0)
   vlc (>= 0)
-  xquartz (= 1.1.1)
-
-=======
   xquartz (= 1.2.1)
->>>>>>> upstream/master
+
