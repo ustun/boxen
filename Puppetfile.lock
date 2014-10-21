@@ -229,6 +229,11 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: mozilla-boxen/puppet-limechat
+  specs:
+    limechat (1.1.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -271,6 +276,7 @@ DEPENDENCIES
   java (>= 0)
   karabiner (>= 0)
   kindle (>= 0)
+  limechat (= 1.1.0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
