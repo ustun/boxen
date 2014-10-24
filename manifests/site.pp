@@ -64,11 +64,10 @@ node default {
   include skype
   include spotify
   include redis
-  include dash
   include github_for_mac
   include calibre
   include fonts
-  #include authy
+  include authy
   include opera
   include vlc
   include foreman
@@ -83,7 +82,7 @@ node default {
   class { 'intellij':
   edition => 'ultimate',
   version => '13.1'
-  
+
 }
   include xquartz
   include sublime_text

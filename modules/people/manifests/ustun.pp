@@ -1,3 +1,4 @@
+class people::ustun {
 package { [
            # 'ack',
            # 'ant',
@@ -152,4 +153,4 @@ package { [
            # 'zile',
           ]:
           ensure => 'present',
-}
+}}
