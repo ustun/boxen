@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.6.2)
+    boxen (3.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -29,6 +29,11 @@ GITHUBTARBALL
     charles (1.0.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.3.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-cyberduck
   specs:
     cyberduck (1.0.1)
@@ -41,17 +46,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (1.0.1)
+    dnsmasq (2.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.4.0)
+    dropbox (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.5.0)
+    elasticsearch (2.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-fonts
@@ -66,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.1.1)
+    gcc (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -91,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.4)
+    homebrew (1.9.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -106,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.7.0)
+    java (1.7.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-karabiner
@@ -171,7 +176,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.1.2)
+    ruby (8.1.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-selfcontrol
@@ -221,7 +226,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.1.1)
+    xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: mozilla-boxen/puppet-limechat
+  specs:
+    limechat (1.1.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -241,23 +251,24 @@ GITHUBTARBALL
 DEPENDENCIES
   alfred (>= 0)
   authy (>= 0)
-  boxen (= 3.6.2)
+  boxen (= 3.7.0)
   caffeine (>= 0)
   calibre (>= 0)
   charles (>= 0)
+  clojure (>= 0)
   cyberduck (>= 0)
   dash (>= 0)
-  dnsmasq (= 1.0.1)
+  dnsmasq (= 2.0.0)
   dropbox (>= 0)
   elasticsearch (>= 0)
   fonts (>= 0)
   foreman (= 1.2.0)
-  gcc (= 2.1.1)
+  gcc (= 2.2.0)
   git (= 2.5.0)
   github_for_mac (>= 0)
   go (= 1.1.0)
   hipchat (>= 0)
-  homebrew (= 1.9.4)
+  homebrew (= 1.9.5)
   hub (>= 0)
   hub (= 1.3.0)
   inifile (= 1.1.1)
@@ -265,6 +276,7 @@ DEPENDENCIES
   java (>= 0)
   karabiner (>= 0)
   kindle (>= 0)
+  limechat (= 1.1.0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
@@ -276,7 +288,7 @@ DEPENDENCIES
   postgresql (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
-  ruby (= 8.1.2)
+  ruby (= 8.1.4)
   selfcontrol (>= 0)
   skitch (>= 0)
   skype (>= 0)
@@ -287,5 +299,5 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (>= 0)
   vlc (>= 0)
-  xquartz (= 1.1.1)
+  xquartz (= 1.2.1)
 

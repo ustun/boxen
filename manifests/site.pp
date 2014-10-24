@@ -66,8 +66,9 @@ node default {
   include redis
   include github_for_mac
   include calibre
-  include fonts
-  include authy
+   include fonts
+    include limechat
+  # include authy
   include opera
   include vlc
   include foreman
@@ -78,7 +79,8 @@ node default {
   include selfcontrol
   include kindle
   include dropbox
-  include caffeine
+    include caffeine
+    include clojure
   class { 'intellij':
   edition => 'ultimate',
   version => '13.1'
@@ -86,7 +88,7 @@ node default {
 }
   include xquartz
   include sublime_text
-#  include postgresql
+ include postgresql
   include osx::global::key_repeat_rate
   include osx::dock::position
   include karabiner #::login_item
@@ -101,7 +103,7 @@ node default {
 
   # node versions
   include nodejs::v0_10
-
+  class { 'nodejs::global': version => 'v0.10' }
   # default ruby versions
   ruby::version { '2.1.2': }
 
