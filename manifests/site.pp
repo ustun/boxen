@@ -66,7 +66,7 @@ node default {
   include redis
   include github_for_mac
   include calibre
-    include fonts
+   include fonts
     include limechat
   # include authy
   include opera
