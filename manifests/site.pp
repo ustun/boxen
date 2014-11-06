@@ -92,7 +92,8 @@ node default {
   include osx::global::key_repeat_rate
   include osx::dock::position
   include karabiner #::login_item
-  karabiner::remap{ 'optionR2controlL': }
+karabiner::remap{ 'optionR2controlL': }
+include memcached
   include nginx
   include java
 
